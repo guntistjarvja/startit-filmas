@@ -7,7 +7,7 @@ import psycopg2
 
 ELEPHANT_HOST = os.getenv("ELEPHANT_HOST") # "balarama.db.elephantsql.com"
 ELEPHANT_NAME = os.getenv("ELEPHANT_NAME") # "ogbruyus"
-ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD") # "jI57G15auTZ4daFj8_h0TnHuMYsHZvgv"
+ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD") # ""
 
 
 def test_connection():
