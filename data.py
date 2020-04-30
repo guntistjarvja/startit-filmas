@@ -6,8 +6,8 @@ import psycopg2
 # Vienkāršam testam var nomainīt šīs vērtības pret konkrētiem lielumiem
 
 ELEPHANT_HOST = os.getenv("ELEPHANT_HOST") # "balarama.db.elephantsql.com"
-ELEPHANT_NAME = os.getenv("ELEPHANT_NAME") # "manadb"
-ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD") # "managaraparole"
+ELEPHANT_NAME = os.getenv("ELEPHANT_NAME") # "ogbruyus"
+ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD") # "jI57G15auTZ4daFj8_h0TnHuMYsHZvgv"
 
 
 def test_connection():
