@@ -5,13 +5,13 @@ from flask import g
 
 # Iegūstam DB informāciju no vides mainīgajiem
 # lai nebūtu jāglabā parole publiski pieejama
-#ELEPHANT_HOST = os.getenv("ELEPHANT_HOST")
-#ELEPHANT_NAME = os.getenv("ELEPHANT_NAME")
-#ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD")
+ELEPHANT_HOST = os.getenv("ELEPHANT_HOST")
+ELEPHANT_NAME = os.getenv("ELEPHANT_NAME")
+ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD")
 
-ELEPHANT_HOST = "balarama.db.elephantsql.com"
-ELEPHANT_NAME = "ogbruyus"
-ELEPHANT_PASSWORD = "jI57G15auTZ4daFj8_h0TnHuMYsHZvgv"
+#ELEPHANT_HOST = "balarama.db.elephantsql.com"
+#ELEPHANT_NAME = "ogbruyus"
+#ELEPHANT_PASSWORD = "jI57G15auTZ4daFj8_h0TnHuMYsHZvgv"
 
 # Pieslēguma konfigurācija
 dsn = "host={} dbname={} user={} password={}".format(ELEPHANT_HOST, ELEPHANT_NAME, ELEPHANT_NAME, ELEPHANT_PASSWORD)
